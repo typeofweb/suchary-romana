@@ -18,8 +18,8 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
             background: ${bg};
           }
           .text{
-            padding: 0.5rem;
-            font-family: Arial, Helvetica, sans-serif;
+            padding: 0.5rem 1rem;
+            font: 600 18px / 1.5 'Segoe UI', Ubuntu, Sans-Serif
           }
           .question {
             color: ${qColor};
@@ -27,15 +27,11 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
           .answer {
             color: ${aColor};
           }
-          code {
-            font-size: 1.2rem;
-            color: ${codeColor};
-          }
         </style>
         <div class="container">
           <div class="text">
-            <p class="question"><b>Q.</b> ${question}</p>
-            <p class="answer"><b>A.</b> ${answer} </p>
+            <p class="question"><b>Q:</b> ${question}</p>
+            <p class="answer"><b>A:</b> ${answer} </p>
           </div>
         </div>
       </div>

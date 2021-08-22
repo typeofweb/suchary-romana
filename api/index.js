@@ -7,7 +7,7 @@ const themes = require('../src/themes');
 const cacheSeconds = CONSTANTS.TEN_SECONDS;
 
 module.exports = async (req, res) => {
-	let index = Math.floor(Math.random() * Object.keys(jokes).length);
+	let index = Math.floor(Math.random() * jokes.length);
 	let renderJoke = ``;
 
 	let { borderColor, qColor, aColor, textColor, bgColor, codeColor, quoteColor, theme, hideBorder } = req.query;

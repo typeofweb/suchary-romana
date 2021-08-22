@@ -1,5 +1,5 @@
 {
-  "name": "readme-jokes",
+  "name": "suchary-romana",
   "version": "1.0.0",
   "description": "README Jokes",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ABSphreak/readme-jokes.git"
+    "url": "git+https://github.com/typeofweb/suchary-romana.git"
   },
-  "author": "Abhinav Sharma",
+  "author": "Michał Miszczyszyn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ABSphreak/readme-jokes/issues"
+    "url": "https://github.com/typeofweb/suchary-romana/issues"
   },
-  "homepage": "https://github.com/ABSphreak/readme-jokes#readme"
+  "homepage": "https://github.com/typeofweb/suchary-romana#readme"
 }

@@ -1,5 +1,11 @@
 {
 	"default": {
+		"borderColor": "#5CB784",
+		"bgColor": "#fafafa",
+		"qColor": "#5CB784",
+		"aColor": "#E12899"
+	},
+	"default2": {
 		"borderColor": "#8ac926",
 		"bgColor": "#242423",
 		"qColor": "#ffca3a",
